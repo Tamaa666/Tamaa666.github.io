@@ -1,0 +1,97 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(rgba(39, 4, 4, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../UTS_ArjunaPratama/bg.jpg");
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.card-container {
+  width: 300px;
+  height: 430px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 1px #000;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upper-container {
+  height: 150px;
+  background: url(jti.png);
+  background-color: rgb(36, 36, 124);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.image-container {
+  background: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(100px, 100px);
+}
+
+.image-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.lower-container {
+  height: 280px;
+  background:wheat;
+  padding: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.lower-container h3,
+h4 {
+  box-sizing: border-box;
+  line-height: 0.6;
+  font-weight: lighter;
+}
+
+.lower-container h4 {
+  color: rgb(56, 56, 56);
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.lower-container p {
+  font-size: 16px;
+  color: rgb(56, 56, 56);
+  margin-bottom: 30px;
+}
+
+.lower-container .btn {
+  padding: 12px 20px;
+  background: rgb(56, 56, 56);
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+
+.lower-container .btn:hover {
+  background: transparent;
+  color: rgb(56, 56, 56);
+  border: 2px solid rgb(56, 56, 56);
+}
